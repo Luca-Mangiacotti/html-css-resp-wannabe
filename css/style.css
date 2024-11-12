@@ -102,6 +102,7 @@ img {
     width: calc(100% / 3);
 }
 
+
 .steps .col img {
     height: 200px;
     margin-bottom: 1rem;
@@ -127,3 +128,30 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ .container{
+    max-width: 1140px;
+ }
+
+ .steps,
+ .lessons,
+ .why-us{
+    display: flex;
+ }
+
+ .steps .col img,
+ .lessons .col img {
+    max-height: 200px;
+}
+
+/******* IMPOSTAZIONI PER TABLET *******/
+
+@media screen and (max-width:768px){
+
+    .container{
+        max-width: 767px;
+    }
+
+
+}
+
