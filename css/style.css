@@ -155,3 +155,43 @@ img {
 
 }
 
+/******* IMPOSTAZIONI PER MOBILE *******/
+
+@media screen and (max-width:480px){
+
+    .container{
+        max-width: 480px;
+    }
+
+    .row
+    {
+        display: block;
+    }
+
+    .steps .col,
+    .lessons .col,
+    .why-us .col-right,
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-left img{
+        margin-bottom: 80px;
+    }
+
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    
+    .steps {
+        margin-bottom: 0;
+    }
+
+
+
+
+}
